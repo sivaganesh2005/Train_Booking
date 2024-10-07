@@ -12,7 +12,7 @@ const schedule = {
 
     displaySchedule: function() {
         const scheduleDiv = document.getElementById("trainSchedule");
-        scheduleDiv.innerHTML = ""; // Clear previous schedule
+        scheduleDiv.innerHTML = "";
         
         if (this.trains.length === 0) {
             scheduleDiv.innerHTML = "<p>No trains scheduled.</p>";
